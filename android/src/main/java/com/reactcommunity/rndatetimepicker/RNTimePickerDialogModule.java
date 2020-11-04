@@ -100,7 +100,7 @@ public class RNTimePickerDialogModule extends ReactContextBaseJavaModule {
       oldFragment.dismiss();
     }
 
-    promise.resolve();
+    promise.resolve(null);
   }
 
   @ReactMethod

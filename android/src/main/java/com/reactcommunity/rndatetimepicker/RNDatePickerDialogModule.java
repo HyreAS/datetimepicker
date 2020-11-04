@@ -101,7 +101,7 @@ public class RNDatePickerDialogModule extends ReactContextBaseJavaModule {
       oldFragment.dismiss();
     }
 
-    promise.resolve();
+    promise.resolve(null);
   }
   /**
    * Show a date picker dialog.

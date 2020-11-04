@@ -40,7 +40,7 @@ export default class TimePickerAndroid {
     return NativeModules.RNTimePickerAndroid.open(options);
   }
 
-  static async close(): Promise<void> {
+  static async close(): Promise<null> {
     return NativeModules.RNDatePickerAndroid.close();
   }
 
